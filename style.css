@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-brand {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.dropdown {
+    background: none;
+    border: none;
+    margin-right: 20px;
+}
+
+.dropdown a {
+    color: white;
+
+}
+
+.login {
+    /* background: white; */
+    width: 100px;
+}
+
+.jumbotron {
+    background-image: url(img/Bg.png);
+    background-size: cover;
+    height: 782px;
+    margin-top: -62px;
+}
+
+.jumbotron .display-4 {
+    margin-top: 177px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-size: 72px;
+    line-height: 86px;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+
+}
+
+.jumbotron .btn {
+    margin-top: 56px;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.overview {
+    margin-top: 94px;
+    margin-bottom: 95px;
+}
+
+.overview .article h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.overview .article p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.overview .article span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ED4C5C;
+}
+
+.overview .article .play-btn {
+    margin-right: -40px;
+    position: relative;
+}
+
+.feature {
+    background: #FAFAFA;
+    padding-bottom: 124px;
+}
+
+.sec-title {
+    margin-top: 63px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.feature .galery {
+    margin-top: 63px;
+}
+
+.feature .galery img {
+    border-radius: 8px;
+}
+
+.feature .galery .card {
+    position: relative;
+    margin: -90px auto 0;
+    width: 293px;
+    height: 198px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 293px;
+    padding: 33px 32px 25px;
+}
+
+.feature .galery .card h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+
+.feature .galery .card p {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #101010;
+
+}
+
+.feature .galery .card span {
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ED4C5C;
+}
+
+.technology {
+    padding-bottom: 104px;
+}
+
+.technology .container {
+    margin-top: 52px;
+}
+
+.technology .techs {
+    margin-right: 60px;
+    padding: 20px;
+}
+
+.technology .techs .tech-logo {
+    position: relative;
+    margin-left: -90px;
+    margin-top: 80px;
+}
+
+.technology .techs h1 {
+    margin-top: 19px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+
+.technology .techs p {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+}
+
+.download {
+    background: #ED4C5C;
+    padding-top: 94px;
+    padding-bottom: 95px;
+}
+
+.download .article {
+    color: white;
+}
+
+.download .article h1 {
+    padding-top: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.download .article p {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.download .article .download-logo {
+    padding-top: 44px;
+}
+
+.download .article .download-logo img {
+    padding-right: 20px;
+}
+
+
+.download .article .frontface {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    background: #C4C4C4;
+    border-radius: 15px;
+}
+
+.download .article .behind-left {
+    position: absolute;
+    top: 22px;
+    opacity: 0.5;
+}
+
+.download .article .behind-right {
+    position: absolute;
+    top: 22px;
+    right: -44px;
+    opacity: 0.5;
+}
+
+.contact {
+    padding-top: 117px;
+    padding-bottom: 78px;
+}
+
+.contact h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    padding-bottom: 64px;
+}
+
+.contact p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+form .form-group .form-control {
+    border: 1px solid #333333;
+    height: 60px;
+}
+
+form .btn {
+    background: #ED4C5C;
+    width: 160px;
+    height: 50px;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    color: white;
+}
+
+form .btn:hover {
+    color: white;
+    background: #bd2a38;
+}
+
+.footer {
+    background: #FAFAFA;
+    padding-top: 85px;
+    padding-bottom: 86px;
+}
+
+.footer h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    padding-bottom: 28px;
+}
+
+.footer p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    /* line-height: 0%; */
+    color: #101010;
+}
+
+.footer .copyright {
+    padding-top: 86px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #101010;
+}
+
+.footer .logo-link img {
+    margin-right: 8px;
+}
