@@ -362,3 +362,12 @@ form .btn:hover {
 .footer .logo-link img {
   margin-right: 8px;
 }
+
+.footer,
+.feature,
+.technology,
+.download,
+.contact {
+  padding-left: 15px;
+  padding-right: 15px;
+}
